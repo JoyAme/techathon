@@ -1,0 +1,234 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.JOY-GENERAL{
+    padding:3px;
+    color: #F6F8F8;
+    background: #001DC0;
+     cursor:pointer;
+}
+
+
+/* START OF FONT- DECORATION */
+li,
+h4,
+.fa-solid,
+input
+{
+    font-size:16px;
+    list-style-type:none;
+    margin-top:16px;
+    font-weight: none;
+    font-family: 'Open Sans',sans-serif;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:none;
+    font-size:26px;
+    color:#F6F8F8;
+
+}
+h3{
+    font-size:23px;
+}
+/* END OF FONT-DECORATION */
+
+
+
+/* START JOY-NEWSLETTER SECTION */
+
+.JOY-NEWSLETTER{
+    display:flex;
+   justify-content: space-around;
+}
+.JOY-NEWSLETTER-GROUP{
+    margin-left:3%;
+}
+.H3-JOY{
+    margin-top:8%;
+}
+input{
+    padding:12px;
+    width:16em;
+    border-color: white;
+    border-radius: 2px;
+    background: #001DC0;
+    color:#F6F8F8;
+    margin-top:10%;
+}
+button{
+    width:7em;
+    padding:12px;
+    border-style: none;
+    border-radius:8px;
+    font-size:16px;
+    color:white;
+    background-color: #F4AA0B;
+    
+}
+/* END OF JOY-NEWSLETTER */
+
+
+/* JOY GENERAL HEADER- STYLE */
+.JOY-NEWSLETTER-GROUP,
+.JOY-QUICK-LINKS,
+.JOY-CONTACT-US,
+.JOY-FOLLOW-US
+{
+margin-top:35px;
+font-size:20px;
+font-family: Montserrat;
+}
+/* END OF JOY GENERAL HEADER-STYLE */
+
+
+
+
+/* START OF QUICK-LINK SECTION */
+.JOY-QUICK-LINKS{
+    margin-right:16%;
+}
+a{
+   text-decoration: none;
+   font-size:14px;
+   color:aliceblue;
+    font-weight: none;
+    font-family: 'Open Sans',sans-serif;
+}
+/* END OF QUICK LINK SECTION */
+
+
+/* START OF CONTACT-US SECTION */
+.CONTACT-JOY{
+    display:flex;
+
+}
+
+.JOY-CONTACT-US{
+    margin-right: 15%;
+}
+.JOY-CONTACT-ICONS{
+    margin-left:8%;
+}
+/* END OF CONTACT-US SECTION */
+
+
+/* START OF FOLLOW-US SECTION */
+.JOY-FOLLOW-US{
+    margin-right:3%
+}
+.JOY-FOLLOW-ICONS{
+    margin-top:16px;
+}
+.fa-brands.fa-instagram{
+    color:white;
+}
+/* END OF FOLLOW-US SECTION */
+
+.JOY-CROWD{
+    display:block;
+    text-align: center;
+    padding-bottom:2%;
+    margin-top:3%;
+}
+
+/* ==========mobile view=========== */
+
+@media screen and (max-width: 428px){
+    footer{
+        display:flex;
+         flex-wrap: wrap;
+         flex-direction: column;
+         margin-bottom:10%;
+         margin-top:8%;
+         margin-left: 3%;
+         font-weight:lighter;
+    }
+    .JOY-NEWSLETTER-GROUP
+    {
+
+      display:block;
+      text-align: center;
+    }
+    h2{
+        font-size:20px;
+    }
+    h3{
+        font-size:16px;
+        
+    }
+    input{
+        width:55%;
+         height:37px;
+        border-color: #F6F8F8;
+        border-radius: 4px;
+    }
+    button{
+        width:27%;
+        height:4%;
+        padding:9px;
+    }
+    li,
+    h4,
+    .fa-solid,
+     input
+        {
+    font-size:16px;
+    list-style-type:none;
+    margin-top:16px;
+    font-weight: none;
+    font-family: 'Open Sans',sans-serif;
+
+}
+}
+@media screen and (max-width: 768px){
+    footer{
+        display:flex;
+         flex-direction: column;
+         margin-bottom:8%;
+         margin-top:3%;
+         margin-left: 3%;
+         font-weight:lighter;
+    }
+    .JOY-NEWSLETTER-GROUP{
+        text-align: center;
+        line-height:2px;
+    }
+    }
+    /* .JOY-COLLECTIONS{
+        display:flex;
+        justify-content: space-around;
+        
+    } */
+    /* THE============ HSERIES========== */
+   h2{
+    font-size:25px;
+   }
+   h4{
+    font-size: px;
+   }
+    li,
+    .fa-solid,
+     input
+        {
+    font-size:14px;
+    list-style-type:none;
+    margin-top:16px;
+    font-weight: none;
+    font-family: 'Open Sans',sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
